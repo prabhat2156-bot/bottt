@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-bot",
+  "version": "5.0.0",
+  "description": "WhatsApp Group Manager Bot - Multi-User",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --expose-gc --max-old-space-size=256 index.js",
+    "dev": "node --expose-gc --max-old-space-size=256 index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^4.21.2",
+    "mongoose": "^8.23.1",
+    "pino": "^9.6.0",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
